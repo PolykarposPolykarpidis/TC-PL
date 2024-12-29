@@ -1,14 +1,3 @@
-# TC-PL
-My solutions for the exercise and examples from Bjarne Stroustrup's book "The C++ Programming Language" (4th edition).
-
-# I wand to read
-
-## If you want to add values of different types in a container whose the types you know in run time (not in compile time) you have to use one of the following two techiques
-- (Dionysis 1) Abstract base class and inheritance, and pointer from the abstract class to the container
-- (Dionysis 2) std::variant to the container  with different types
-
-## from ChatGPT, Dionysis 1 solution
-```cpp
 #include <iostream>
 #include <tuple>
 #include <memory>
@@ -93,16 +82,3 @@ int main() {
 
     return 0;
 }
-```
-
-When to Use Each Approach
-- std::variant in std::tuple:
- - Use when you know the set of possible types at compile time and want type-safe access.
-- std::any in std::tuple:
- - Use when you don't know the types at compile time or need maximum flexibility.
-- Smart pointers in std::tuple:
- - Use when working with polymorphic custom types or when dynamic memory allocation is required.
-
-
-## This is something else
-- [Curiously Recurring Template Pattern](https://en.cppreference.com/w/cpp/language/crtp)
