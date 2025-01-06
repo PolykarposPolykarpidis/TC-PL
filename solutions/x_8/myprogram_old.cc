@@ -69,6 +69,7 @@ int main(){
 
     delete c_node;
 
+
     //std::cout<<r_node->get_cargo()<<'\n';
 
     return 0;
