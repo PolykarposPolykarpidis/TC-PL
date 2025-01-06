@@ -149,4 +149,9 @@ Contents of Documents:
 
 ---
 
-This project will force you to think critically about pointers, ownership, and object relationships, all while giving you hands-on experience with dynamic memory. Let me know if you need help at any step! 🚀
+## objectives
+This project will force me to think critically about
+- pointers,
+- ownership, and 
+- object relationships,
+all while giving me hands-on experience with dynamic memory.
